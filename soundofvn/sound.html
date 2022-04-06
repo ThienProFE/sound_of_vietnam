@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sound.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sounds of VN_Play</title>
+    <link rel="icon" href="../img/favicon2.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/63d6995e50.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <div class="header" id="myTopnav">
+        <ul class="header_content">
+          <li class="nav_logo">
+            <a href="../home/home.html"><h1>SONNER</h1></a>
+          </li>
+          <li class="nav_sound">
+            <a href="../request/request.html">Request Sound</a>
+          </li>
+          <li class="nav_sound">
+            <a href="../contribute/contribute.html">Contribute Sound</a>
+          </li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
+        <div class="nav_left">
+          <div id="hello"></div>
+          <div id="logout"><a href="../login/login.html">LOG OUT</a></div>
+        </div>
+      </div>
+      <div class="categories" id="btn">
+        <ul>
+          <li class="first-row">
+            <a class="cities" data-filter="trend" id="trend">Trending</a>
+            <a class="cities what" data-filter="all" id="all">All</a>
+            <a class="cities" data-filter="hanoi">Hanoi</a>
+            <a class="cities" data-filter="saigon" id="sai-gon">Saigon</a>
+            <a class="cities" data-filter="phu-quoc" id="phu-quoc">Phu Quoc</a>
+            
+          </li>
+          <li class="second-row">
+            <a class="cities" data-filter="da-nang">Da Nang</a>
+            <a class="cities" data-filter="sa-pa" id="sapa">Sa Pa</a>
+            <a class="cities" data-filter="nha-trang">Nha Trang</a>
+            <a class="cities" data-filter="ninh-binh">Ninh Binh</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="music" data-item="hanoi" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/1-hn-coffee-shop.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+            <p></p>
+          </div>
+          <audio class="sound" src="./sounds/1-hn-coffee-shop.mp3"></audio>
+        </div>
+        <div class="music" data-item="hanoi" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/2-hn-west-lake.png" alt="" />
+            <input type="range" class="volume" value="" min="0" max="100" />
+            <!-- <progress min ="0" max="100" "></progress>             -->
+          </div>
+          <audio class="sound" src="./sounds/2-hn-west-lake.mp3"></audio>
+        </div>
+        <div class="music" data-item="hanoi" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/3-hn-rain.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/3-hn-rain.mp3"></audio>
+        </div>
+        <div class="music" data-item="hanoi" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/4-hn-traffic.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/4-hn-traffic.mp3"></audio>
+        </div>
+        <div class="music" data-item="hanoi" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/5-hn-market.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/5-hn-market.mp3"></audio>
+        </div>
+        <div class="music" data-item="saigon" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/6- Sai gon coffee.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/6-saigon-cafe.mp3"></audio>
+        </div>
+        <div class="music" data-item="saigon" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/7 - sai gon street.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/7-saigon-street.mp3"></audio>
+        </div>
+        <div class="music" data-item="saigon" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/8-Saigon rain.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/8-sai-gon-rain.mp3"></audio>
+        </div>
+        <div class="music" data-item="saigon" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/9-Sai gon market.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/9-saigon-market.mp3"></audio>
+        </div>
+        <div class="music" data-item="saigon" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/10-Sai gon night life.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/10-sai-gon-night-life.mp3"></audio>
+        </div>
+        <div class="music" data-item="phu-quoc" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/11-Phu quoc beach.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/11-Phu quoc beach.mp3"></audio>
+        </div>
+        <div class="music" data-item="phu-quoc" data-type="all">
+          <div class="test">
+            <img
+              class="hn"
+              src="./img/12-Phu Quoc fishing village.png"
+              alt=""
+            />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/12-phu-quoc-fishing.mp3"></audio>
+        </div>
+        <div class="music" data-item="da-nang" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/13-da nang beach.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/13-da-nang-beach.mp3"></audio>
+        </div>
+        <div class="music" data-item="da-nang" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/14-hoi an.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/14-hoi-an.mp3"></audio>
+        </div>
+        <div class="music" data-item="da-nang" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/15-da nang street.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/15-da-nang-city.mp3"></audio>
+        </div>
+        <div class="music" data-item="sa-pa" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/16-Sapa.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/16-sapa sound.mp3"></audio>
+        </div>
+        <div class="music" data-item="sa-pa" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/17-fansipan.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/17-fansipan.mp3"></audio>
+        </div>
+        <div class="music" data-item="sa-pa" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/18-sapa local market.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/18-sapa-love-market.mp3"></audio>
+        </div>
+
+        <div class="music" data-item="nha-trang" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/19-nha trang beach.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/19-nha-trang-beach.mp3"></audio>
+        </div>
+        <div class="music" data-item="nha-trang" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/20-da lat.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/20-da-lat.mp3"></audio>
+        </div>
+        <div class="music" data-item="ninh-binh" data-type="all">
+          <div class="test">
+            <img class="hn" src="./img/21-cuc phuong.png" alt="" />
+            <input type="range" class="volume" min="0" max="100" value="60" />
+          </div>
+          <audio class="sound" src="./sounds/21-ninh-binh.mp3"></audio>
+        </div>
+      </div>
+      <div class="footer">
+        <ul class="footer_link">
+            <li><b>Sonner</b></li>
+            <li><em>The sound of Vietnam</em></li>
+            <li>
+            <a href="https://www.facebook.com/groups/1035491273987874" target="_blank"><i class="fa-brands fa-facebook-square"></i></i></a>
+            <a href="https://www.instagram.com/thesoundofvietnam/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://twitter.com/TheSound_Of_VN" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.tiktok.com/@the_sound_of_vietnam" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </li>
+        </ul>
+        <ul class="footer_features">
+            <li><b>Features</b></li>
+            <li>Play</li>
+            <li>Request Sound</li>
+            <li>Contribute Sound</li>
+        </ul>
+        <ul class="footer_about">
+            <li><b>About us</b></li>
+            <li>Contact</li>
+            <li>Terms of Policies</li>
+        </ul>
+    </div>
+    </div>
+    <script src="./sound.js"></script>
+  </body>
+</html>
