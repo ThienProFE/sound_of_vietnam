@@ -7,8 +7,12 @@ function myFunction() {
     }
 };
 const email = document.querySelector(".footer_news_email");
-const btn = document.querySelector(".footer_news_btn");
-btn.addEventListener("click", () => {
+const join = document.getElementById("join");
+join.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (email.value === "" || email.value === null) {
+        alert("Please enter your email.")
+    } else {
     fetch('https://624d41f9c172b69d692fe4fd.mockapi.io/api/v1/daily_email', {
         method: 'POST',
         headers: {
@@ -19,7 +23,8 @@ btn.addEventListener("click", () => {
         }).then(res => res.json())
         .then(res => {
             console.log(res);
-            alert("You have successfully applied your email");
+            alert("You have successfully applied your email!");
         })
         .catch((error)=>console.log(error))
+    }
 })
