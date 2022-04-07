@@ -281,7 +281,9 @@ body {
     .main_aside h1 {
         font-size: 4rem;
     }
-
+    .main_aside_play{
+        width: 20rem;
+    }
     .main_center img {
         width: 22.5rem;
     }
