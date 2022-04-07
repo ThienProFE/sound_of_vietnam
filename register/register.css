@@ -7,7 +7,7 @@ body {
 }
 /*Phần header*/
 .header {
-    background-color: #9EB2B0;
+    background-color: #9EB2B0; 
     height: 10vh;
     color: #ffffff;
     font-weight: 700;
@@ -18,10 +18,10 @@ body {
 }
 
 #nav_logo {
+    font-family: Quicksand;
     font-size: 2rem;
     margin: auto 2rem;
 }
-
 #nav_logo a {
     text-decoration: none;
     color: #ffffff;
@@ -29,7 +29,7 @@ body {
 
 #nav_logo a:hover {
     text-decoration: none;
-    color: blue;
+    color: #114E60;
 }
 
 .nav_sound {
@@ -50,9 +50,8 @@ body {
 }
 
 .nav_sound:hover {
-    background-color: red;
-    border-color: red;
-    color: black;
+    background-color: #DE8971;
+    border-color: #DE8971;
 }
 
 .header .icon {
@@ -100,12 +99,13 @@ body {
     color: #ffffff;
     font-size: 1.2rem;
     margin: 0.6rem;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 
 #register button:hover {
-    background-color: rgb(71, 203, 212);
+    background-color: #114E60;
     font-weight: bold;
-    color: black;
 }
 
 #error {
@@ -117,6 +117,10 @@ body {
     background-color: #e8ebee;
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 .footer ul {
     list-style-type: none;
@@ -254,7 +258,6 @@ body {
         font-size: 0.7rem;
     }
 }
-
 
 
 
