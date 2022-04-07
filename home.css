@@ -291,6 +291,9 @@ body {
         padding: 2rem; 
         line-height: 1.5rem;
     }
+    .main_center{
+        height: 91vh;
+    }
     .main_content {
         display: flex;
         flex-direction: column;
