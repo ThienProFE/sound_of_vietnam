@@ -9,7 +9,7 @@ body {
     background-color: #9EB2B0;
     color: #ffffff;
     font-weight: 700;
-    height: 4rem;
+    height: 4.5rem;
     border-bottom: 1px solid #fff;
     display: flex;
 }
@@ -38,9 +38,10 @@ body {
 }
 
 #login {
-    width: 4rem;
+    width: 6rem;
     background-color: #ffffff;
     color: #A7D0CD;
+    padding: 5px 10px 0 10px;
 }
 
 #login a {
@@ -48,13 +49,13 @@ body {
 }
 
 .nav_sound:hover {
-    background-color: red;
-    border-color: red;
+    background-color: #DE8971;
+    border-color: #DE8971;
 }
 
 #login:hover {
-    background-color: red;
-    border-color: red;
+    background-color: #FFEEAE;
+    border-color: #FFEEAE;
 }
 
 .header .icon {
@@ -71,6 +72,7 @@ body {
     color: #ffffff;
     line-height: 5rem;
     padding-top: 5rem;
+    height: 86vh;
 }
 
 .main_center img {
@@ -129,22 +131,30 @@ body {
 }
 
 .main_relax {
-    padding: 3rem;
+    padding: 2rem 10rem 2rem 7rem;
 }
 
 .main_relax h2 {
     font-size: 3rem;
+    letter-spacing: 3px;
 }
 
 .main_relax div p {
     line-height: 2rem;
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 
 /*Phần Footer*/
 .footer {
-    background-color: #e8ebee;
+    background-color: #ededed;
     display: flex;
     justify-content: space-around;
+    color: #5c5c5c;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .footer ul {
     list-style-type: none;
@@ -167,6 +177,7 @@ body {
     border-radius: 2rem;
     width: 10rem;
     height: 2rem;
+    margin-bottom: 10px;
 }
 
 .footer_news_email {
@@ -174,17 +185,19 @@ body {
 }
 
 .footer_news button {
-    border: 1px solid #A7D0CD;
+    border: 1px solid #9EB2B0;
     border-radius: 2rem;
     width: 5rem;
     height: 2rem;
-    background-color:#A7D0CD;
+    background-color:#9EB2B0;
     color: #fff;
     font-weight: bold;
+    margin-left: 1rem;
+    letter-spacing: 1px;
 }
 
 .footer_news button:hover {
-    background-color: red;
+    background-color: #DE8971;
     color: black;
 }
 
@@ -353,7 +366,6 @@ body {
         flex-direction: column;
     }
 }
-
 
 
 
