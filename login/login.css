@@ -221,6 +221,7 @@ body {
 /* Responsive phần Section */
     .section {
         flex-direction: column;
+        height: 100vh;
     }
     .aside {
         border: none;
